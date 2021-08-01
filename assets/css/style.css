@@ -1,0 +1,22 @@
+/*  common  */
+@font-face {
+    font-family: Quicksand; /* Имя шрифта */
+    src: url(../fonts/Quicksand-Regular.ttf); /* Путь к файлу со шрифтом */
+}  
+@font-face {
+    font-family: Quicksand; /* Имя шрифта */
+    font-weight: 600;
+    src: url(../fonts/Quicksand-Bold.ttf); /* Путь к файлу со шрифтом */
+}  
+body {
+    font-family: Quicksand;
+    margin: 0px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
